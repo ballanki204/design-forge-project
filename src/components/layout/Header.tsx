@@ -1,12 +1,14 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Lock } from "lucide-react";
+import { useAdmin } from "@/contexts/AdminContext";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { isAdmin } = useAdmin();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
@@ -69,6 +71,15 @@ const Header = () => {
               {link.title}
             </Link>
           ))}
+          
+          {/* Admin Link */}
+          <Link
+            to={isAdmin ? "/admin/dashboard" : "/admin/login"}
+            className="relative pb-1 font-medium transition-colors text-design-dark/70 hover:text-design-charcoal flex items-center"
+          >
+            <Lock size={16} className="mr-1" />
+            Admin
+          </Link>
         </nav>
         
         {/* Mobile menu button */}
@@ -97,6 +108,15 @@ const Header = () => {
               {link.title}
             </Link>
           ))}
+          
+          {/* Mobile Admin Link */}
+          <Link
+            to={isAdmin ? "/admin/dashboard" : "/admin/login"}
+            className="font-medium text-design-dark/70 flex items-center"
+          >
+            <Lock size={16} className="mr-1" />
+            Admin
+          </Link>
         </nav>
       )}
     </header>
