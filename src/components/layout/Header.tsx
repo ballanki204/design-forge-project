@@ -45,8 +45,13 @@ const Header = () => {
       }`}
     >
       <div className="container-custom flex justify-between items-center">
-        <Link to="/" className="font-serif text-2xl md:text-3xl font-medium">
-          Inside Studio
+        <Link to="/" className="flex items-center gap-2">
+          <div className="w-10 h-10 bg-design-taupe rounded-full flex items-center justify-center text-white font-serif">
+            BI
+          </div>
+          <span className="font-serif text-2xl md:text-3xl font-medium">
+            Bhuvana Interior
+          </span>
         </Link>
         
         {/* Desktop Navigation */}
