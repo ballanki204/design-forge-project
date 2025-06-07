@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   Table, 
@@ -22,8 +21,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
 import { Trash, Plus, Edit } from "lucide-react";
 
-// Using the project type from ProjectCard component
-import { Project } from "../components/ui/ProjectCard";
+// Using the project type from ProjectCard component - corrected import path
+import { Project } from "@/components/ui/ProjectCard";
 
 // This would come from your database in a real app
 const initialProjects: Project[] = [
