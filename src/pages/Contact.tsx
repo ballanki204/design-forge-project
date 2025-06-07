@@ -75,8 +75,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl mb-3 font-medium">Email Us</h3>
               <p className="text-design-dark/80 mb-2">We'll respond within 24 hours</p>
-              <a href="mailto:hello@bhuvanainterior.com" className="text-design-charcoal font-medium">
-                hello@bhuvanainterior.com
+              <a href="mailto:bhuvanainteriorsd@gmail.com" className="text-design-charcoal font-medium">
+                bhuvanainteriorsd@gmail.com
               </a>
             </div>
             <div className="text-center p-8 bg-design-beige hover-scale">
@@ -86,8 +86,8 @@ const Contact = () => {
               <h3 className="text-xl mb-3 font-medium">Visit Us</h3>
               <p className="text-design-dark/80 mb-2">By appointment only</p>
               <address className="not-italic text-design-charcoal font-medium">
-                123 Design Avenue<br />
-                New York, NY 10001
+                Marripalem<br />
+                Vishakhapatnam, AP
               </address>
             </div>
           </div>

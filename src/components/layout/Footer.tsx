@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="space-y-4 text-white/80">
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="mt-1" />
-                <span>123 Design Avenue, New York, NY 10001</span>
+                <span>Marripalem, Vishakhapatnam, AP</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={20} />
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={20} />
-                <span>hello@bhuvanainterior.com</span>
+                <span>bhuvanainteriorsd@gmail.com</span>
               </div>
             </div>
           </div>
