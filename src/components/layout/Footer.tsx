@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-serif text-2xl mb-4">Inside Studio</h3>
+            <h3 className="font-serif text-2xl mb-4">Bhuvana Interior</h3>
             <p className="text-white/80 mb-6">
               Creating exceptional interior spaces that balance form and function
               to enhance the quality of life.
@@ -50,11 +50,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={20} />
-                <span>(555) 123-4567</span>
+                <span>+91 76748 87919</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={20} />
-                <span>hello@insidestudio.com</span>
+                <span>hello@bhuvanainterior.com</span>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-sm text-white/60 flex flex-col md:flex-row justify-between">
-          <p>© 2025 Inside Studio. All rights reserved.</p>
+          <p>© 2025 Bhuvana Interior. All rights reserved.</p>
           <div className="flex space-x-4 mt-2 md:mt-0">
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

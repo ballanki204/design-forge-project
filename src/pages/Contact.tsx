@@ -65,8 +65,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl mb-3 font-medium">Call Us</h3>
               <p className="text-design-dark/80 mb-2">Mon-Fri, 9am-5pm</p>
-              <a href="tel:+15551234567" className="text-design-charcoal font-medium">
-                (555) 123-4567
+              <a href="tel:+917674887919" className="text-design-charcoal font-medium">
+                +91 76748 87919
               </a>
             </div>
             <div className="text-center p-8 bg-design-beige hover-scale">
@@ -75,8 +75,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl mb-3 font-medium">Email Us</h3>
               <p className="text-design-dark/80 mb-2">We'll respond within 24 hours</p>
-              <a href="mailto:hello@insidestudio.com" className="text-design-charcoal font-medium">
-                hello@insidestudio.com
+              <a href="mailto:hello@bhuvanainterior.com" className="text-design-charcoal font-medium">
+                hello@bhuvanainterior.com
               </a>
             </div>
             <div className="text-center p-8 bg-design-beige hover-scale">
